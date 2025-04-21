@@ -236,6 +236,12 @@ const main = async () => {
       age: '24',
       isAdmin: true,
     },
+    {
+      id: 'kim',
+      name: 'kim',
+      age: '30',
+      isAdmin: false,
+    },
   ];
   for (let i = 0; i < users.length; i++) {
     await saveUser(users[i]);
